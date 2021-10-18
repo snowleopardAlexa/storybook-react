@@ -1,27 +1,13 @@
 import React from 'react';
 import { Button } from '@chakra-ui/core';
+import { action, actions } from '@storybook/addon-actions'
 
 export default {
     title: 'Chakra/Button',
-    component: Button,
-    argTypes: {
-        variantColor: {control: 'text'}
-    }
+    component: Button
 }
 
-const Template = args => <Button {...args} />
+export const Success = () => <Button onClick={action('Click handler')} variantColor='green'>Success</Button>
 
-export const Success = Template.bind({})
-Success.args = {
-    variantColor: 'green',
-    children: 'Success'
-}
-
-export const Danger = Template.bind({})
-Danger.args = {
-    variantColor: 'red',
-    children: 'Danger'
-}
-
-
+export const Danger = () => <Button {...actions('onClick', 'onMouseOver')} variantColor='red'>Danger</Button>
 
