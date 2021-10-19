@@ -12,3 +12,4 @@ addDecorator(story => (
 ))
 
 addDecorator((storyFn, context) => withConsole()(storyFn)(context))
+addDecorator(withKnobs)
