@@ -3,7 +3,7 @@ import { addDecorator, addParameters } from '@storybook/react';
 import { ThemeProvider, theme, CSSReset, Box } from '@chakra-ui/core';
 import { withConsole } from '@storybook/addon-console';
 import { withKnobs } from '@storybook/addon-knobs';
-import { INITIAL_VIEWPORT } from '@storybook/addon-viewport';
+import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
 
 addDecorator(story => (
   <ThemeProvider theme={theme}>
@@ -18,7 +18,7 @@ addDecorator(withA11y)
 
 addParameters({
   viewport: {
-    viewports: INITIAL_VIEWPORT,
+    viewports: INITIAL_VIEWPORTS,
   },
 })
 
