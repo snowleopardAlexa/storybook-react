@@ -14,6 +14,7 @@ addDecorator(story => (
 
 addDecorator((storyFn, context) => withConsole()(storyFn)(context))
 addDecorator(withKnobs)
+addDecorator(withA11y)
 
 addParameters({
   viewport: {
