@@ -5,11 +5,11 @@ module.exports = {
   ],
   "addons": [
     "@storybook/preset-create-react-app",
-    '@storybook/addon-actions',
+    "@storybook/addon-actions",
     "@storybook/addon-links",
     "@storybook/addon-docs",
     "@storybook/addon-knobs",
     "@storybook/addon-viewport",
-    "@storybook/addon-ally"
+    "@storybook/addon-a11y"
   ],
 }
