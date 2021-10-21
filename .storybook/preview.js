@@ -1,4 +1,5 @@
 import React from 'react';
+import { withA11y } from '@storybook/addon-a11y';
 import { addDecorator, addParameters } from '@storybook/react';
 import { ThemeProvider, theme, CSSReset, Box } from '@chakra-ui/core';
 import { withConsole } from '@storybook/addon-console';
@@ -16,9 +17,13 @@ addDecorator((storyFn, context) => withConsole()(storyFn)(context))
 addDecorator(withKnobs)
 addDecorator(withA11y)
 
-addParameters({
+addParameters ({
   viewport: {
-    viewports: INITIAL_VIEWPORTS,
+       viewports: INITIAL_VIEWPORTS,
   },
-})
+});
+
+addParameters({
+  a11y: options,
+});
 
