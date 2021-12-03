@@ -1,16 +1,18 @@
 // writing button story
 import React from 'react';
-import Button from './Button';
+import Button from './ButtonRounded';
 
 export default {
     title: 'Form/Button',
     component: Button,
 }
 
-export const Aqua = () => <Button variant='aqua'>Aqua</Button>
-export const Mandarine = () => <Button variant='mandarine'>Mandarine</Button>
-export const Barbie = () => <Button variant='barbie'>Barbie</Button>
-export const Amethyst = () => <Button variant='amethyst'>Amethyst</Button>
+export const AquaRounded = () => <Button variant='aquarounded'>Aqua</Button>
+export const MandarineRounded = () => <Button variant='mandarinerounded'>Mandarine</Button>
+export const BarbieRounded = () => <Button variant='barbierounded'>Barbie</Button>
+export const AmethystRounded = () => <Button variant='amethystrounded'>Amethyst</Button>
+
+
 
 
 
