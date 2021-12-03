@@ -23,7 +23,7 @@ addParameters ({
   },
 });
 
-addParameters({
-  a11y: options,
-});
+
+
+
 

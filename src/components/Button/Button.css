@@ -1,16 +1,17 @@
 .button {
-    border: none;
+    border-top: 5px solid rgb(245, 226, 242);
+    border-bottom: 5px solid rgb(245, 226, 242);
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    border-radius: 4px;
+    border-radius: 30px;
     cursor: pointer;
 }
 
-.primary {background-color: #6dd5ed;}
-.secondary {background-color: #1E9600;}
-.success {background-color: #1D976C;}
-.danger {background-color: #c31432;}
+.aqua {background-color: #74ebd5;}
+.mandarine {background-color: #f12711;}
+.barbie {background-color: #ff00cc;}
+.amethyst {background-color: #500a7e}
