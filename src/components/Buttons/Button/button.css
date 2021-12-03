@@ -8,7 +8,11 @@
     cursor: pointer;
 }
 
-.aqua {background-color: #74ebd5;}
+.aqua {
+    background-color: #74ebd5;
+    border-top: 5px solid #ACB6E5;
+    border-bottom: 5px solid #ACB6E5;
+}
 .mandarine {background-color: #f12711;}
 .barbie {background-color: #ff00cc;}
 .amethyst {background-color: #500a7e}
