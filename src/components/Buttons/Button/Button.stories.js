@@ -15,7 +15,6 @@ export const Eucalyptus = () => <Button variant='eucalyptus'>Eucalyptus</Button>
 export const Bay = () => <Button variant='bay'>Bay</Button>
 
 
-export const AquaSharp = () => <Button variant='aqua-sharp'>AquaSharp</Button>
 
 
 
