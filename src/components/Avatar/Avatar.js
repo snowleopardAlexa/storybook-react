@@ -3,10 +3,10 @@ import './avatar.css';
 
 function Avatar(props) {
 
-    const { variant = 'aqua', children, ...rest} = props
+    const { variant = 'aqua', size='small', children, ...rest} = props
 
     return (
-        <button className={`avatar ${variant}`} {...rest}>
+        <button className={`avatar ${variant} ${size}`} {...rest}>
             {children}
         </button>
     )
