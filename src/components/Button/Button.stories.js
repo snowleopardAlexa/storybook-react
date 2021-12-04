@@ -7,10 +7,15 @@ export default {
     component: Button,
 }
 
-export const Primary = () => <Button variant='primary'>Primary</Button>
-export const Secondary = () => <Button variant='secondary'>Secondary</Button>
-export const Success = () => <Button variant='success'>Success</Button>
-export const Danger = () => <Button variant='danger'>Danger</Button>
+export const Aqua = () => <Button variant='aqua'>Aqua</Button>
+export const Mandarine = () => <Button variant='mandarine'>Mandarine</Button>
+export const Barbie = () => <Button variant='barbie'>Barbie</Button>
+export const Amethyst = () => <Button variant='amethyst'>Amethyst</Button>
+export const Eucalyptus = () => <Button variant='eucalyptus'>Eucalyptus</Button>
+export const Bay = () => <Button variant='bay'>Bay</Button>
+
+
+
 
 
 
