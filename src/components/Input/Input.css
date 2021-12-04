@@ -9,6 +9,8 @@
     background-color: #fff;
 }
 
+/* size */
+
 .small {
     height: 2rem;
     font-size: 0.875rem;
@@ -23,3 +25,30 @@
     height: 3rem;
     font-size: 1.25rem;
 }
+
+/* variant */
+
+.aqua-input {
+    border-bottom: 3px solid #ACB6E5;
+}
+
+.mandarine-input {
+    border-bottom: 3px solid #f5af19;
+}
+
+.barbie-input {
+    border-bottom: 3px solid #b91d73;
+}
+
+.amethyst-input {
+    border-bottom: 3px solid #4A00E0;
+}
+
+.eucalyptus-input {
+    border-bottom: 3px solid #45B649;
+}
+
+.bay-input {
+    border-bottom: 3px solid #0ED2F7;
+}
+
