@@ -1,0 +1,15 @@
+.checkbox {
+  position: absolute;
+  top: 10;
+  left: 10;
+  height: 25px;
+  width: 25px;
+  border-radius: 10px;
+  background-color: rgb(221, 220, 220);
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox:checked ~ .checkbox {
+    background-color: #2196F3;
+  }
+

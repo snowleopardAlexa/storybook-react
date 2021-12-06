@@ -3,7 +3,7 @@ import React from 'react';
 import Avatar from './Avatar';
 
 export default {
-    title: 'Form/Avatar',
+    title: 'Components/Card/Avatar',
     component: Avatar,
 }
 
